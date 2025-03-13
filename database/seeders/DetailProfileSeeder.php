@@ -15,9 +15,9 @@ class DetailProfileSeeder extends Seeder
     {
         //
         DB::table('detail_profile')->insert( [
-            'address' => 'Nganjuk',
-            'nomor_tlp' => '0812345678',
-            'ttl' => '2002-10-11',
+            'address' => 'Rejoso',
+            'nomor_tlp' => '082233390162',
+            'ttl' => '2002-10-12',
             'foto' => 'picture.png'
         ]);
     }

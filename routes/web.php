@@ -75,3 +75,5 @@ Route::group(['namespace' => 'App\Http\Controllers\frontend'], function() {
 Route::group(['namespace' => 'App\Http\Controllers\backend'], function() {
     Route::resource('dashboard', 'DashboardController');
 });
+Auth::routes();
+Route::get('/homes', [App\Http\Controllers\HomeController::class, 'index'])->name('homes');
