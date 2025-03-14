@@ -12,15 +12,15 @@
       </nav>
     </div><!-- End Page Title -->
 
-    <section class="section dashboard">
-      <div class="row">
+    <!-- <section class="section dashboard">
+      <div class="row"> -->
 
         <!-- Left side columns -->
-        <div class="col-lg-8">
-          <div class="row">
+        <!-- <div class="col-lg-8">
+          <div class="row"> -->
 
             <!-- Sales Card -->
-            <div class="col-xxl-4 col-md-6">
+            <!-- <div class="col-xxl-4 col-md-6">
               <div class="card info-card sales-card">
 
                 <div class="filter">
@@ -52,10 +52,10 @@
                 </div>
 
               </div>
-            </div><!-- End Sales Card -->
+            </div>End Sales Card -->
 
             <!-- Revenue Card -->
-            <div class="col-xxl-4 col-md-6">
+            <!-- <div class="col-xxl-4 col-md-6">
               <div class="card info-card revenue-card">
 
                 <div class="filter">
@@ -87,10 +87,10 @@
                 </div>
 
               </div>
-            </div><!-- End Revenue Card -->
+            </div>End Revenue Card -->
 
             <!-- Customers Card -->
-            <div class="col-xxl-4 col-xl-12">
+            <!-- <div class="col-xxl-4 col-xl-12">
 
               <div class="card info-card customers-card">
 
@@ -124,10 +124,10 @@
                 </div>
               </div>
 
-            </div><!-- End Customers Card -->
+            </div>End Customers Card -->
 
             <!-- Reports -->
-            <div class="col-12">
+            <!-- <div class="col-12">
               <div class="card">
 
                 <div class="filter">
@@ -147,7 +147,7 @@
                   <h5 class="card-title">Reports <span>/Today</span></h5>
 
                   <!-- Line Chart -->
-                  <div id="reportsChart"></div>
+                  <!-- <div id="reportsChart"></div>
 
                   <script>
                     document.addEventListener("DOMContentLoaded", () => {
@@ -200,16 +200,16 @@
                         }
                       }).render();
                     });
-                  </script>
+                  </script> -->
                   <!-- End Line Chart -->
 
-                </div>
+                <!-- </div>
 
               </div>
-            </div><!-- End Reports -->
+            </div>End Reports -->
 
             <!-- Recent Sales -->
-            <div class="col-12">
+            <!-- <div class="col-12">
               <div class="card recent-sales overflow-auto">
 
                 <div class="filter">
@@ -280,10 +280,10 @@
                 </div>
 
               </div>
-            </div><!-- End Recent Sales -->
+            </div>End Recent Sales -->
 
             <!-- Top Selling -->
-            <div class="col-12">
+            <!-- <div class="col-12">
               <div class="card top-selling overflow-auto">
 
                 <div class="filter">
@@ -354,16 +354,16 @@
                 </div>
 
               </div>
-            </div><!-- End Top Selling -->
+            </div>End Top Selling -->
 
-          </div>
-        </div><!-- End Left side columns -->
+          <!-- </div>
+        </div>End Left side columns -->
 
         <!-- Right side columns -->
-        <div class="col-lg-4">
+        <!-- <div class="col-lg-4"> -->
 
           <!-- Recent Activity -->
-          <div class="card">
+          <!-- <div class="card">
             <div class="filter">
               <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
               <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
@@ -390,53 +390,53 @@
                   </div>
                 </div><!-- End activity item-->
 
-                <div class="activity-item d-flex">
+                <!-- <div class="activity-item d-flex">
                   <div class="activite-label">56 min</div>
                   <i class='bi bi-circle-fill activity-badge text-danger align-self-start'></i>
                   <div class="activity-content">
                     Voluptatem blanditiis blanditiis eveniet
                   </div>
-                </div><!-- End activity item-->
+                </div>End activity item -->
 
-                <div class="activity-item d-flex">
+                <!-- <div class="activity-item d-flex">
                   <div class="activite-label">2 hrs</div>
                   <i class='bi bi-circle-fill activity-badge text-primary align-self-start'></i>
                   <div class="activity-content">
                     Voluptates corrupti molestias voluptatem
                   </div>
-                </div><!-- End activity item-->
+                </div>End activity item -->
 
-                <div class="activity-item d-flex">
+                <!-- <div class="activity-item d-flex">
                   <div class="activite-label">1 day</div>
                   <i class='bi bi-circle-fill activity-badge text-info align-self-start'></i>
                   <div class="activity-content">
                     Tempore autem saepe <a href="#" class="fw-bold text-dark">occaecati voluptatem</a> tempore
                   </div>
-                </div><!-- End activity item-->
+                </div>End activity item -->
 
-                <div class="activity-item d-flex">
+                <!-- <div class="activity-item d-flex">
                   <div class="activite-label">2 days</div>
                   <i class='bi bi-circle-fill activity-badge text-warning align-self-start'></i>
                   <div class="activity-content">
                     Est sit eum reiciendis exercitationem
                   </div>
-                </div><!-- End activity item-->
+                </div>End activity item -->
 
-                <div class="activity-item d-flex">
+                <!-- <div class="activity-item d-flex">
                   <div class="activite-label">4 weeks</div>
                   <i class='bi bi-circle-fill activity-badge text-muted align-self-start'></i>
                   <div class="activity-content">
                     Dicta dolorem harum nulla eius. Ut quidem quidem sit quas
                   </div>
-                </div><!-- End activity item-->
+                </div>End activity item -->
 
-              </div>
+              <!-- </div>
 
             </div>
-          </div><!-- End Recent Activity -->
+          </div>End Recent Activity -->
 
           <!-- Budget Report -->
-          <div class="card">
+          <!-- <div class="card">
             <div class="filter">
               <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
               <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
@@ -507,10 +507,10 @@
               </script>
 
             </div>
-          </div><!-- End Budget Report -->
+          </div>End Budget Report -->
 
           <!-- Website Traffic -->
-          <div class="card">
+          <!-- <div class="card">
             <div class="filter">
               <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
               <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
@@ -585,10 +585,10 @@
               </script>
 
             </div>
-          </div><!-- End Website Traffic -->
+          </div>End Website Traffic -->
 
           <!-- News & Updates Traffic -->
-          <div class="card">
+          <!-- <div class="card">
             <div class="filter">
               <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
               <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
@@ -638,12 +638,12 @@
 
               </div><!-- End sidebar recent posts-->
 
-            </div>
-          </div><!-- End News & Updates -->
+            <!-- </div>
+          </div>End News & Updates --> 
 
-        </div><!-- End Right side columns -->
+        <!-- </div>End Right side columns -->
 
-      </div>
+      <!-- </div> -->
     </section>
 
     @endsection

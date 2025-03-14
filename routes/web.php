@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ManagementUserController;
+use App\Http\Controllers\backend\PengalamanKerjaController;
+use App\Http\Controllers\Controller;
 use App\Http\Controllers\Frontend\HomeController;
 
 Route::get('/', function () {
@@ -71,9 +73,11 @@ Route::group(['namespace' => 'App\Http\Controllers\frontend'], function() {
     Route::resource('home', 'HomeController');
 });
 
-//Acara 8
+//Acara 8 dan 13
 Route::group(['namespace' => 'App\Http\Controllers\backend'], function() {
     Route::resource('dashboard', 'DashboardController');
+    Route::resource('pendidikan', 'PendidikanController');
+    Route::resource('pengalaman_kerja', 'PengalamanKerjaController');
 });
-Auth::routes();
+//Auth::routes();
 Route::get('/homes', [App\Http\Controllers\HomeController::class, 'index'])->name('homes');
